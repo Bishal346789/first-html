@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("45.jpg");
+}
+nav{
+    width: 100;
+    height:15vh ;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+div{
+    width:25%;
+    text-align: center;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section{
+    
+
+}
+
+section h3{
+    font: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px white;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px white;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    color:blue;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px white;
+    font: bold;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: blue;
+    color: white;
+    font: bold;
+}
+a:hover{
+    background: #00b894;
+    color: white;
+}
+
+.change_contant:after{
+    content: "";
+    animation: changetext 10s infinite linear;
+     color:greenyellow;
+}
+@keyframes changetext {
+    0%{content: "I am a programer";}
+    20%{content: "I am a student";}
+    35%{content: "I am a developer";}
+    60%{content: "I am a player";}
+    80%{content: "I am a singer";}
+    100%{content: "I am a host";}
+}
+div{
+    color: aqua;
+    background-color: (0,0,0.2);
+}
